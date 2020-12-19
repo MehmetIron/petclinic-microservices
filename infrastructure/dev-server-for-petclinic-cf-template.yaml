@@ -3,6 +3,10 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: >
   This Cloudformation template prepares development environment for Petclinic Microservices Application.
   User needs to select appropriate key name when launching the template.
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature/msp-5
 Parameters:
   KeyPairName:
     Description: Enter the name of your Key Pair for SSH connections.
@@ -109,4 +113,8 @@ Resources:
 Outputs:
   PetclinicServerDNSName:
     Description: Petclinic App URL
+<<<<<<< HEAD
     Value: !GetAtt PetclinicServer.PublicDnsName
+=======
+    Value: !GetAtt PetclinicServer.PublicDnsName
+>>>>>>> feature/msp-5
