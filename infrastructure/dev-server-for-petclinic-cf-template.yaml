@@ -4,7 +4,10 @@ Description: >
   This Cloudformation template prepares development environment for Petclinic Microservices Application.
   User needs to select appropriate key name when launching the template.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 520783205c8f052e0301b21d8e2290d23cf7c373
 
 >>>>>>> feature/msp-5
 Parameters:
@@ -114,7 +117,11 @@ Outputs:
   PetclinicServerDNSName:
     Description: Petclinic App URL
 <<<<<<< HEAD
+<<<<<<< HEAD
     Value: !GetAtt PetclinicServer.PublicDnsName
 =======
     Value: !GetAtt PetclinicServer.PublicDnsName
 >>>>>>> feature/msp-5
+=======
+    Value: !GetAtt PetclinicServer.PublicDnsName
+>>>>>>> 520783205c8f052e0301b21d8e2290d23cf7c373
